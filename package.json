@@ -1,0 +1,22 @@
+{
+  "name": "vlom.si",
+  "version": "1.0.0",
+  "description": "vlom.si official website",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch src/css:out/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "jszip-utils": "^0.1.0",
+    "sass": "^1.55.0",
+    "servor": "^4.0.2",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
